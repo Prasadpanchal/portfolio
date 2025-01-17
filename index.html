@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="image/portfolio-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+    <script src="https://use.fontawesome.com/9afbcd80e5.js"></script>
+
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js"></script>
+    <title>Prasad Panchal</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo">
+                <span class="logo-text">Prasad Panchal</span>
+                <div class="logo-shine"></div>
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">
+                <span>Home</span>
+                <div class="link-effect"></div>
+            </a>
+            <a href="#about" class="nav-link">
+                <span>About</span>
+                <div class="link-effect"></div>
+            </a>
+            <a href="#project-section" class="nav-link">
+                <span>Project</span>
+                <div class="link-effect"></div>
+            </a>
+            <a target="_blank" href="document/Prasad_Shivaji_Panchal.pdf" class="nav-link">
+                <span>Resume</span>
+                <div class="link-effect"></div>
+            </a>
+            <a href="#contact-container" class="nav-link">
+                <span>Contact</span>
+                <div class="link-effect"></div>
+            </a>
+        </div>
+
+        <button class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Arrow Return to Top -->
+    <a href="#home" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="menu-header">
+            <div class="logo">
+                <span class="logo-text">Premium</span>
+            </div>
+            <button class="close-menu">
+                <span class="close-icon"></span>
+            </button>
+        </div>
+        <div class="menu-links">
+            <a href="#home" class="menu-link active">
+                <span>Home</span>
+            </a>
+            <a href="#about" class="menu-link">
+                <span>About</span>
+            </a>
+            <a href="#project-section" class="menu-link">
+                <span>Project</span>
+            </a>
+            <a href="#" class="menu-link">
+                <span>Resume</span>
+            </a>
+            <a href="#contact-container" class="menu-link">
+                <span>Contact</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Prasad Panchal</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-box">
+            <div class="hedline">About Me</div>
+            <div class="main-section">
+                <div class="profile-1">
+                    <div class="profile">
+                        <img src="image/profile.png" alt="Profile image">
+                    </div>
+                    <div class="skill">
+                        <h4>Skill</h4>
+                        <p>HTML, CSS 3</p>
+                        <p>JavaScript, Java</p>
+                        <p>MySql, MangoDB</p>
+                    </div>
+                </div>
+                <div class="profile-2">
+                    <p>Name:<span> Prasad Panchal</span></p>
+                    <p>Email:<span> prasadpanchal431@gmail.com</span></p>
+                    <p>Phone:<span> +91 7218662541</span></p>
+
+                    <divc class="my-self">
+                        <p>My name is Prasad Panchal, and I’m a final-year MCA student. I create high-quality websites and applications using HTML, CSS, and JavaScript.</p>
+                        <p>I am proficient in Python, Java, and C++, and have a strong understanding of database management. I also excel at developing high-quality web applications.</p>
+                    </divc>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Project Section -->
+    <section class="project-section" id="project-section">
+        <h1>Project</h1>
+        <div class="project-block">
+            <div class="icon">
+                <img src="image/project-icon.png" alt="project-icon">
+            </div>
+            <h3>Grocery Mobile Application</h3>
+            <p>The Grocery Application is an Android-based project designed to simplify grocery shopping and management.
+                Developed using Java as the primary programming language, it provides a user-friendly interface for efficient
+                functionality. The application uses MySQL as its backend database, ensuring robust data storage and retrieval. This
+                project aims to deliver a seamless experience for users to browse, manage, and purchase groceries conveniently through
+                their Android devices.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact-container" id="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="54bd5a17-004f-47ca-bf56-9fc4df5d367c">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Massage" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right">
+            <div class="first">
+                <h4>Pune, Maharashtra, India</h4>
+                <h4>+91 7218662541</h4>
+                <h4>prasadpanchal431@gmail.com</h4>
+                <div class="social-media">
+                    <a target="_blank" href="https://github.com/Prasadpanchal">
+                        <img src="image/github.png" alt="Girl in a jacket" >
+                    </a>
+                    <a target="_blank" href="https://in.linkedin.com/in/prasad-s-panchal555">
+                        <img src="image/linkdin.png" alt="Girl in a jacket" >
+                    </a>
+                    <a target="_blank" href="https://x.com/PrasadPanchal75/">
+                        <img src="image/x.png" alt="Girl in a jacket" >
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/prasad_s_panchal/">
+                        <img src="image/insragram.png" alt="Girl in a jacket" >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <div class="footer-section">
+        <div class="footer">
+            <p>© Copyright <strong>Prasad Panchal</strong> All Rights Reserved</p>
+        </div>
+     </div>
+    
+</div>
+</body>
+</html>
